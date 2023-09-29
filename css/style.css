@@ -1,0 +1,345 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-family: 'Source Sans 3', sans-serif;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans 3', sans-serif;
+
+}
+a,a:hover{
+	text-decoration: none; 
+}
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/banner.png") center top no-repeat;
+    background-size: cover;
+ 
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: #fff;
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight: 600;
+	margin: 0px 0px 0px 25px;
+}
+.banner{
+	width: 100%;
+	padding: 80px 10px 300px 0px;
+	text-align: center;
+}
+.banner h4{
+	font-size: 28px;
+	font-weight: 600;
+	color: #ffc61a;
+	text-transform: uppercase;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+
+}
+.banner h1{
+	font-size: 66px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 1.2em;
+	margin:  15px 0px;	
+	
+}
+.banner p{
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	line-height: 1.8em;
+	letter-spacing: 6px;
+		
+}
+.service{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/bg.png") center top no-repeat;
+    background-size: cover;
+ 
+}
+.service .taxi img{
+  margin: -320px 10px 400px 180px;
+}
+.service .booking h2{
+	color: #000;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: -300px 0px 0px 0px;
+}
+.service .booking h1{
+	color: #000;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+ .action-buttons{
+  width: 100%;
+  padding: 40px 0px 0px;
+
+}
+.action-buttons .btn-primary{
+	padding: 15px 50px;
+	border-radius: 0px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	background: #000;
+	border: 1px solid #000;
+	color: #fff;
+	margin: 0px 10px 0px 0px;
+	
+	
+}
+.action-buttons .btn-primary:hover{
+	background: #fff;
+	border: 1px solid #fff;
+	color:  #000;
+}
+.booking-car{
+	width: 100%;
+	margin: -310px 0px 50px 120px;
+
+}
+.booking-car h2{
+	text-transform: uppercase;
+    background: #171717;
+    margin-top: 10px;
+    padding: 15px 30px;
+    color: #fff;
+}
+.booking-car h2 span{
+    color: #ffc61a;
+}
+.booking-car form{
+    background: #fff;
+    padding: 20px;
+}
+.booking-car .form-control{
+    padding: 30px 0px 10px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #e4e4e4;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+
+.booking-car .btn-submit{
+    background: #131313;
+    width: 100%;
+    margin-top: 40px;
+    padding: 3px 37px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #fff;
+    transition: 1s;
+}
+
+.booking-car .btn-submit:hover {
+    background: #ffc61a;
+    color: #000;
+}
+.course{
+	width: 100%;
+	padding: 50px 0px;
+
+}
+.course h1{
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0px 0px 60px;
+	text-transform: uppercase;
+	padding: 15px 0px;
+}
+.course h1 span{
+	color: #ffc519;
+}
+.course .card img{
+	margin: -80px 0px auto;
+}
+.course .card{
+	padding: 25px;
+	border: 0px;
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+	border-radius: 15px;
+    background: #fff;
+}
+.course .card:hover{
+	padding: 25px;
+	border: 0px;
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+	border-radius: 15px;
+    background: #ffc519;
+}
+.course .card .card title{
+	font-size: 22px;
+	line-height: 1.2em;
+	font-weight: 600;
+	color: #000;
+}
+.course .card .card body{
+	padding: 20px 0px;
+}
+.course .card .card body .card text{
+	font-size: 14px;
+	line-height: 1.7em;
+}
+.course .card .card-body .btn-success{
+	display: inline-block;
+	padding: 7px 25px;
+	border-radius: 5px;
+	background: #ffc61a;
+	color: #000;
+    margin: 10px 0px 40px 0px;
+	border: 1px solid #ffc61a;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+    margin: 0px 0px 0px 60px;
+}
+.course .card .card-body .btn-success:hover, .course .card .card-body .btn-success:focus{
+
+	background: #000;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.course .card h5{
+	font-size: 22px;
+	margin: 10px;
+	text-align: center;
+	font-weight: 800;
+}
+.course .card p{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+.wish{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/wm.png") center top no-repeat;
+    background-size: cover;
+ 
+}
+.wish .best h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 600;
+	padding: 20px 0px;
+	color: #ffc61a;
+
+}
+.wish .best h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 800;
+	margin: -15px 0px 40px 0px;
+	color: #fff;
+	
+}
+.wish .col-lg-6 h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+    margin: -30px 0px 0px 50px;
+    color: #fff;
+
+}
+.wish .col-lg-6 p {
+	font-size: 14px;
+	text-transform: uppercase;
+    margin: 10px 0px 40px 50px;
+    color: #999;
+}
+.wish .action-buttons .btn-primary{
+	background: #ffc61a;
+	color: #000;
+	text-align: center;
+	margin: 40px 0px 30px 450px;
+}
+.wish .action-buttons .btn-primary:hover{
+	background: #000;
+	border: 1px solid #000;
+	color:  #fff;
+}
+.download .download-heading h3{
+	  font-size: 32px;
+	  font-weight: 600;
+	  color: #ffc61a;
+	  text-align: center;
+	  text-transform: uppercase;
+	  padding: 55px 0px 5px;
+}
+.download .download-heading h2{
+	  font-size: 38px;
+	  font-weight: 800;
+	  line-height: 1.7em;
+	  color: #000;
+	  text-align: center;
+	  text-transform: uppercase;
+
+}
+.download .download-left-content h3{
+	 font-size: 26px;
+	 font-weight: 600;
+	  color: #000;
+	  padding: 40px 0px 10px;
+
+}
+.download .download-left-content p{
+	 font-size: 18px;
+	 font-weight: 400;
+	 color: #000;
+}
+.download .icon-area img{
+	margin: 40px 0px 0px -20px;
+}
+
+.download .download-right-content img{
+	text-align: right;
+	padding: 30px 10px 0px 50px;
+}
+.contact-section{
+    background: #ffc61a;
+    padding: 95px 0;
+    text-align: center;
+}
+.contact-section h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.contact-section h1{
+    padding-top: 40px;
+    font-size: 66px;
+    font-weight: 800;
+}
+.footer{
+	width: 100%;
+	padding: 50px 0px;
+	background: url("../images/ft.png") center top no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.footer .copyright{
+	font-size: 16px;
+	line-height: 1.7em;
+	margin: -10px 0px 15px 0px;
+	text-align: center;
+	color: #ffc61a;
+	letter-spacing: 1px;
+}
+

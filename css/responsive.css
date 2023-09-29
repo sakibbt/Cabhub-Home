@@ -1,0 +1,45 @@
+/*
+    # screen resulation : 279px to 319px;
+    # devices: most of the smart phone in galaxy fold.
+ */
+ 
+ @media (min-width: 279px) and (max-width: 319px){
+           /* css start  */
+             /*   css end        */
+             
+}
+
+/*
+    # screen resulation : 320px to 480px;
+    # devices: most of the smart phone.
+ */
+ 
+ @media (min-width: 320px) and (max-width: 480px){
+           /* css start  */
+        /*   css end        */
+
+}
+
+/*
+    # screen resulation : 481px to 767px;
+    # devices: most of the high resulatuion mobile and low resulation tab.
+ */
+ @media (min-width: 481px) and (max-width: 767px){
+
+          /* css start  */ 
+          
+ 
+          /* css end  */  
+      }
+
+
+      /*
+
+     # screen resulation : 768px to 1024px;
+    # devices: most of the tab  and mini notebook.
+ */
+ @media (min-width: 768px) and (max-width: 1024px){
+
+   /* css start  */
+     /* css end  */
+}
